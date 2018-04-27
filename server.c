@@ -133,7 +133,7 @@ int main(int argc,char *argv[]){
 	}
 
 	/*Start listening for incoming connections*/
-	if(listen(sockfd, 10) == -1){
+	if(listen(sockfd, 5) == -1){
 		perror("ERROR on listened");
 		exit(1);
 	}

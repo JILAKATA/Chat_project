@@ -14,3 +14,14 @@ We can use <pthread.h> for thread and a description can be found here:
 
 To Compile the program just type:
 	 make
+And to execute the programs,  open one terminal for server, and, more than two terminals for client.
+  EXE server:
+	./server
+
+
+  EXE client:
+	./client <ip-address> <portnumber> <nickname>
+
+Finally to disconect from chat:
+	Ctrl-c
+
