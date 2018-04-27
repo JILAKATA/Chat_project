@@ -8,10 +8,9 @@ accepting connections from Clients and receiving/forwarding messages, and Client
 send/receive messages. 
 The project will be developed in C using socket programming and thread. 
 We will use the library <sys/socket.h> for socket programming and a description can be found here: 
-  http://pubs.opengroup.org/onlinepubs/7908799/xns/syssocket.h.html . 
+  	http://pubs.opengroup.org/onlinepubs/7908799/xns/syssocket.h.html . 
 We can use <pthread.h> for thread and a description can be found here: 
-  http://pubs.opengroup.org/onlinepubs/7908799/xsh/pthread.h.html . 
+  	http://pubs.opengroup.org/onlinepubs/7908799/xsh/pthread.h.html . 
 
-To Compile the program:
-Server --> gcc -pthread -o server server.c
-Client --> gcc -pthread -o client client.c
+To Compile the program just type:
+	 make
